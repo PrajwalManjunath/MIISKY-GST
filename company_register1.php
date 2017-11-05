@@ -5,7 +5,6 @@ session_start();
   define('PASS','miisky@123');
   define('DB','MiiGst');
   $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
-
                 // $recaptcha_secret = "6LfxxA8TAAAAAONPG7LL98jtx8pZPvv5wJRnRvoe";
                 // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret."&response=".$_POST['g-recaptcha-response']);
                 // $response = json_decode($response, true);
