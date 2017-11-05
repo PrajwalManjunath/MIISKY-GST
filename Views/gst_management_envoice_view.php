@@ -6,6 +6,7 @@ if(!isset($firm_name)){ redirect ('Welcome');}
 <link href="<?php echo base_url("assets/css/plugins/codemirror/ambiance.css"); ?>" rel="stylesheet">
 <link href="<?php echo base_url("assets/css/plugins/chosen/chosen.css"); ?>" rel="stylesheet">
 <link href="<?php echo base_url("assets/css/GstnManagement/InvoiceModule.css"); ?>" rel="stylesheet">
+<link href="<?php echo base_url("assets/css/GstnManagement/InvoiceModule.css"); ?>" rel="stylesheet">
 <style type="text/css">
 </style>
            <div class="row wrapper border-bottom white-bg page-heading">

@@ -14,6 +14,7 @@ function get_gstr1b2bdata_list($vault_no)
 
 
         return $query->result();
+        return $query->result();
 
         //echo 'Total Results: ' . $query->num_rows();
     }

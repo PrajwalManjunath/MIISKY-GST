@@ -13,7 +13,6 @@ class Gstn_masters extends CI_Controller
         $this->load->model('Gstr_model');
         $this->load->model('Gstr');
         $this->load->model('Validation_model');   
-        
     }   
     
      public function check_authentication()

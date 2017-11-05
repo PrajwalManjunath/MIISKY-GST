@@ -10,6 +10,9 @@ class Gstn_management extends CI_Controller
         $this->load->model('User_model');
         $this->load->model('Report_model');
         $this->load->model('Gst_model');
+
+
+        asdasdasd
         $this->load->model('Gstr_model');
     }   
     
