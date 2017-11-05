@@ -11,7 +11,6 @@ class Gstn_management extends CI_Controller
         $this->load->model('Report_model');
         $this->load->model('Gst_model');
         $this->load->model('Gstr_model');
-        
     }   
     
     function index($inum)
